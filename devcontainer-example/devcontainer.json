@@ -45,7 +45,6 @@
   "workspaceFolder": "/workspace/development",
   "shutdownAction": "stopCompose",
   "mounts": [
-    "source=${localWorkspaceFolder}/development,target=/workspace/development,type=bind",
-    "source=C:/Users/Dpointed-1/Documents/GitHub/erpnext,target=/workspace/development/erpnext,type=bind"
+    "source=${localWorkspaceFolder}/development,target=/workspace/development,type=bind"
   ]
 }
