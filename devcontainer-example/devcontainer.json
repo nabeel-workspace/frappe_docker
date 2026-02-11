@@ -45,6 +45,7 @@
   "workspaceFolder": "/workspace/development",
   "shutdownAction": "stopCompose",
   "mounts": [
-    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/frappe/.ssh,type=bind,consistency=cached"
+    "source=${localWorkspaceFolder}/development,target=/workspace/development,type=bind",
+    "source=C:/Users/Dpointed-1/Documents/GitHub/erpnext,target=/workspace/development/erpnext,type=bind"
   ]
 }
